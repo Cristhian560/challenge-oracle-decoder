@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	color: white;
+	margin: 0px;
+	padding-left: 20px;
+	background-color: black;
+}
+.todo{
+	background-color: black;
+	color: white;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.caja_1{	
+	padding: 20px;
+	margin: 20px;
+	height: 500px; 
+	width: 400px; 
+	background-color: black;
+	display: inline-block;
+}
+.texto {
+	display: block;
+	height: 50px;
+	margin: 50px;
+	width: 300px;
+}
+#subtitulo{
+	text-align: center;
+}
+#entrada{
+	height: 200px;
+	width: 300px;
+	padding: 0px;
+}
+#salida{
+	height: 200px;
+	width: 300px;
+	padding: 0px;
+}
+
+button{
+	background-color: red;
+	border-color: red;
+	margin-top: 50px;
+	height: 50px;
+	width: 100px;
+}
+
